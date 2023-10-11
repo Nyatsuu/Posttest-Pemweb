@@ -1,0 +1,234 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+body.Light-Mode {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.kiri {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    padding: 10px;
+    color: #ff0000;
+    
+}
+
+label {
+    color:red
+}
+header {
+    background-color: black;
+    padding: 30px 0;
+    color: white;
+    text-align: center;
+}
+
+header.Light-Mode {
+    background-color: white;
+    color: black;
+    padding: 30px 0;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+}
+
+h2.Light-Mode {
+    color: black;
+}
+nav {
+    background-color: #181818;
+    color: #fff;
+    text-align: right;
+    padding: 10px 0;
+    position: relative;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li a:hover {
+    color: rgb(255, 255, 255);
+    border-radius: 2px transparent solid;
+    border: white;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ff0000;
+    text-decoration :none;
+}
+
+button {
+    color: red;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    background-color:#6c0000;
+    width: auto;
+    height: auto;
+
+
+}
+
+hr {
+    height: 200px;
+    color: #6c0000;
+    border:none;
+
+}
+p {
+    padding-left: 111px;
+    padding-right: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+#subtitle.Light-Mode {
+    color: black;
+}
+
+.bunga {
+    padding: 20px;
+    size: auto;
+}
+
+.tentang {
+    background-color: #6c0000;
+    margin: 20px;
+    display : flex;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+#pembesar {
+    font-size: 50px;
+    
+}
+
+.ganteng {
+    padding-left: 250px;
+    width: 250px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px ;
+}
+
+.activity {
+    margin: 20px;
+    background-color: #333;
+    display: block;
+    text-align: center;
+}
+
+#subtitle {
+    font-size: 20px;
+    text-align: center;
+    padding-right: 120px;
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+ 
+.image-container {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+.description {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgba(1, 0, 0, 0.8);
+    color: #fff;
+    padding: 5px;
+    display: none;
+    width: 100%; 
+    text-align: center;
+}
+.image-container:hover .description {
+    display: block;
+}
+
+.container_sd {
+    text-align: center;
+    background-color: #6c0000;
+    border: 100px;
+    height: 350px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+
+  .form-container {
+    background-color: red;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px auto; /* Center the form horizontally */
+    max-width: 400px;
+}
+
+/* Style for the form labels and inputs */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style for the submit button */
+input[type="submit"] {
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: red;
+}
