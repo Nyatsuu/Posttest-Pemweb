@@ -1,0 +1,129 @@
+/* style.css */
+
+/* Gaya dasar halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya untuk judul h1 */
+h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Gaya untuk tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td, a {
+    color: #333;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+.test1 {
+    color: #fff;
+}
+
+/* Gaya untuk tombol */
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+    transform: scale(1.1);
+}
+
+/* Gaya untuk tautan */
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Gaya untuk formulir input */
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Gaya animasi untuk h2 */
+.animated-title {
+    animation: fadeInUp 0.5s ease both;
+    margin-top: 20px;
+}
+
+@keyframes fadeInUp {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Gaya animasi untuk tombol "Kembali" */
+.back-button {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.test a {
+    color: #fff;
+}
+
+.back-button a {
+    background-color: #555;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.back-button a:hover {
+    background-color: #333;
+    transform: scale(1.1);
+}
