@@ -1,0 +1,223 @@
+:root{
+    --main-color: #d3ad7f;
+    --black:#13131a;
+    --bg:black;
+    --cf:#4c403d;
+    --border:.1rem solid rgba(255,255,255,.3);
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+
+}
+
+html::-webkit-scrollbar{
+    width:.8rem;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: #fff;
+    border-radius: 5rem;
+}
+
+body{
+    background: black;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    padding:2rem 7%;
+    align-items: center;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 252px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: var(--cf);
+}
+
+button:hover {
+    background: black;
+}
+
+.header{
+    background: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    border-bottom: var(--border);
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+}
+
+.header .logo img{
+    height: 6rem;
+}
+
+.header .dasmin-center h1{
+    font-size: 20px;
+    text-align: center;
+    color: var(--main-color);
+}
+
+.header .navbar a{
+    margin: 0 1rem;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+.header .navbar a:hover{
+    color: var(--main-color);
+    border-bottom: .1rem solid var(--main-color);
+    padding-bottom: .5rem;
+}
+
+
+.tambah {
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-around;
+    min-height: 100vh;
+    display: flex;
+    padding-top: 150px;
+    background: url(../images/a.png) no-repeat;
+    background-size: cover;
+}
+
+
+.tambah .content {
+    margin: 20px;
+    padding: 10px;
+    align-content: space-between;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: max-content;
+    max-width: 850px;
+    background: burlywood;
+    border-radius:  15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.tambah .userdata {
+    margin: 20px;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    height: max-content;
+    max-width: 850px;
+    background: burlywood;
+    border-radius:  15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.tambah .content h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: var(--cf);
+    text-align: center;
+}
+
+.tambah form label{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px;
+
+}
+
+.tambah form {
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+table {
+    font-size: 10pt;
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+td {
+    padding: 3px;
+    height: 5px;
+    border: 2px solid black; /* Add this line */
+    text-align: center;
+    background-color: white;
+}
+
+th {
+    background-color: var(--main-color);
+    color: black;
+    height: 30px;
+    width: 50px;
+    border: 2px solid black;
+}
+
+h3 {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-size: 50px;
+    text-align: center;
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    width: 100%;
+    margin: 2px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background: white;
+}
+
+.contable {
+    align-items: center;
+    display: block;
+    padding: 50px;
+}
+
+
+
+@media (max-width: 600px) {
+    .social-icons a {
+        margin: 10px 5px;
+    }
+}
