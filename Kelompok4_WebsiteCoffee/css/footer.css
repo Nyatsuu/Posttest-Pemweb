@@ -1,0 +1,14 @@
+footer {
+    background-color: var(--main-color);
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 25px;
+    padding-bottom: 5px;
+    color: var(--cf);
+}
